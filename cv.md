@@ -59,3 +59,8 @@ const threeSum = function (nums) {
 
 **International Economy**
 *Khabarovsk State Academy of Economics and Law | 2009 – 2014*
+
+## Languages
+
+* **English**: B2
+* **Chinese**: HSK5
