@@ -54,3 +54,8 @@ const threeSum = function (nums) {
     return res
 };
 ```
+
+## Education
+
+**International Economy**
+*Khabarovsk State Academy of Economics and Law | 2009 – 2014*
