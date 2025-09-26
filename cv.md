@@ -11,3 +11,9 @@ Tashkent, Uzbekistan | <arabey.k@gmail.com> | [GitHub](https://github.com/wadzar
 * Developed and maintained web-based applications using React, JavaScript, and TypeScript.
 
 * Created reusable UI components, improving consistency across the product and reducing development time for new features.
+
+## Skills
+
+* **Programming Languages**: JavaScript, TypeScript
+* **Frameworks and Libraries**: React, Nextjs, Tailwind CSS, Ant Design, React Query
+* **Tools**: Git, Jira
