@@ -18,5 +18,90 @@
         </nav>
       </div>
     </header>
+    <main>
+      <section>
+        <h2>Experience</h2>
+        <p>
+          Koop Technologies Dubai, OAE | June 2022 – April 2025 | 2 years 9
+          months
+        </p>
+        <ul>
+          <li>
+            Developed and maintained web-based applications using React,
+            JavaScript, and TypeScript.
+          </li>
+          <li>
+            Created reusable UI components, improving consistency across the
+            product and reducing development time for new features.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming Languages: JavaScript, TypeScript</li>
+          <li>
+            Frameworks and Libraries: React, Nextjs, Tailwind CSS, Ant Design,
+            React Query
+          </li>
+          <li>Tools: Git, Jira</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Code example</h2>
+        <pre>
+          <code>
+            const threeSum = function (nums) {
+              nums.sort((a, b) => a - b);
+              const res = []
+
+              for (let i = 0; i < nums.length; i++) {
+                  if (i > 0 && nums[i] === nums[i - 1]) {
+                      continue;
+                  }
+
+                  let l = i + 1;
+                  let r = nums.length - 1;
+
+                  while (l < r) {
+                      let sum = nums[i] + nums[l] + nums[r]
+
+                      if (sum < 0) {
+                          l++
+                      } else if (sum > 0) {
+                          r--
+                      } else {
+                          res.push([nums[i], nums[l], nums[r]])
+                          l++
+
+                          while (nums[l] === nums[l - 1] && l < r) {
+                              l++
+                          }
+                      }
+                  }
+              }
+
+              return res
+            };
+          </code>
+        </pre>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li>
+            International Econom Khabarovsk State Academy of Economics and Law |
+            2009 – 2014
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>English: B2</li>
+          <li>Chinese: HSK5</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
