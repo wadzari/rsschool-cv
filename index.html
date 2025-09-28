@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Wadzari CV</title>
@@ -77,11 +77,11 @@
           <pre>
             <code>
 const threeSum = function (nums) {
-  nums.sort((a, b) => a - b);
+  nums.sort((a, b) =&gt; a - b);
   const res = []
 
   for (let i = 0; i &lt; nums.length; i++) {
-      if (i &gt; 0 && nums[i] === nums[i - 1]) {
+      if (i &gt; 0 &amp;&amp; nums[i] === nums[i - 1]) {
         continue;
     }
 
@@ -99,7 +99,7 @@ const threeSum = function (nums) {
         res.push([nums[i], nums[l], nums[r]])
         l++
 
-        while (nums[l] === nums[l - 1] && l &lt; r) {
+        while (nums[l] === nums[l - 1] &amp;&amp; l &lt; r) {
           l++
         }
       }
@@ -140,7 +140,7 @@ const threeSum = function (nums) {
             <img
               src="https://raw.githubusercontent.com/rolling-scopes-school/qualifying-stage/213ac1409f387d0f3006daaed5613cb5885000cf/tasks/cv/images/rs-school-logo.svg"
               alt="RS School Short Track"
-              style="width: 5rem"
+              class="rslogo"
             >
           </a>
           <span>
