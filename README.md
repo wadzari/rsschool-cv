@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[CV](https://wadzari.github.io/rsschool-cv/cv)
+https://wadzari.github.io/rsschool-cv/
