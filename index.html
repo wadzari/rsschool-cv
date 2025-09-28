@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Wadzari CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@0,400..700&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Konstantin Arabei</h1>
+        <div class="header">
+          <img
+            src="https://avatars.githubusercontent.com/u/34591001"
+            alt="Wadzari"
+            class="avatar"
+          >
+          <nav>
+            <ul>
+              <li>
+                Email:
+                <a href="mailto:arabey.k@gmail.com">arabey.k@gmail.com</a>
+              </li>
+              <li>Github: <a href="http://github.com/wadzari">Wadzari</a></li>
+              <li>Discord nickname: Konstantin(@wadzari)</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <h2>Experience</h2>
+          <p>
+            Koop Technologies Dubai, OAE | June 2022 – April 2025 | 2 years 9
+            months
+          </p>
+          <ul>
+            <li>
+              Developed and maintained web-based applications using React,
+              JavaScript, and TypeScript.
+            </li>
+            <li>
+              Created reusable UI components, improving consistency across the
+              product and reducing development time for new features.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <ul>
+            <li>Programming Languages: JavaScript, TypeScript</li>
+            <li>
+              Frameworks and Libraries: React, Nextjs, Tailwind CSS, Ant Design,
+              React Query
+            </li>
+            <li>Tools: Git, Jira</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Code example</h2>
+          <pre>
+            <code>
+const threeSum = function (nums) {
+  nums.sort((a, b) => a - b);
+  const res = []
+
+  for (let i = 0; i &lt; nums.length; i++) {
+      if (i &gt; 0 && nums[i] === nums[i - 1]) {
+        continue;
+    }
+
+    let l = i + 1;
+    let r = nums.length - 1;
+
+    while (l &lt; r) {
+      let sum = nums[i] + nums[l] + nums[r]
+
+      if (sum &lt; 0) {
+        l++
+      } else if (sum &gt; 0) {
+        r--
+      } else {
+        res.push([nums[i], nums[l], nums[r]])
+        l++
+
+        while (nums[l] === nums[l - 1] && l &lt; r) {
+          l++
+        }
+      }
+    }
+  }
+
+  return res
+};
+            </code>
+          </pre>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li>
+              International Econom Khabarovsk State Academy of Economics and Law
+              | 2009 – 2014
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Languages</h2>
+          <ul>
+            <li>English: B2</li>
+            <li>Chinese: HSK5</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <a
+            href="https://rs.school/courses/short-track"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/rolling-scopes-school/qualifying-stage/213ac1409f387d0f3006daaed5613cb5885000cf/tasks/cv/images/rs-school-logo.svg"
+              alt="RS School Short Track"
+              style="width: 5rem"
+            >
+          </a>
+          <span>
+            Created by
+            <a
+              href="https://github.com/wadzari"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wadzari</a
+            >
+          </span>
+          <span> 2025 </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
